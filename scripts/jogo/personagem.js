@@ -41,11 +41,11 @@ class Personagem extends Animacao{
   
   }
   
-  ficaInvencivel(){
+  ficaInvencivel(tempo){
     this.invencivel = true;
     setTimeout(()=>{
       this.invencivel = false;
-    },1000)
+    },tempo)
   
   }
   

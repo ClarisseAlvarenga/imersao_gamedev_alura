@@ -41,10 +41,10 @@ class Jogo {
       
 //colecionaveis
 //matriz,imagem,x, variacaoY, largura,altura, larguraSprite, alturaSprite
-  estrelaVermelha = new Colecionavel(matriz_estrela,imagemEstrelaVermelha,width, numero_aleatorio(250, 650), 50, 50,500,500)
-  estrelaAzul = new Colecionavel(matriz_estrela,imagemEstrelaAzul,width, numero_aleatorio(250, 650), 70, 70,500,500)
+  estrelaVermelha = new Colecionavel(matriz_estrela,imagemEstrelaVermelha,width, numero_aleatorio(250, 650), 60, 60,500,500)
+  estrelaAzul = new Colecionavel(matriz_estrela,imagemEstrelaAzul,width, numero_aleatorio(250, 650), 75, 75,500,500)
   estrelaAmarela = new Colecionavel(matriz_estrela,imagemEstrelaAmarela,width, numero_aleatorio(250, 650), 50, 50,500,500)
-  estrelaBranca = new Colecionavel(matriz_estrela,imagemEstrelaBranca,width, numero_aleatorio(250, 650), 50, 50,500,500)
+  estrelaBranca = new Colecionavel(matriz_estrela,imagemEstrelaBranca,width, numero_aleatorio(250, 650), 65, 65,500,500)
     
     estrelas.push(estrelaVermelha);
     estrelas.push(estrelaAzul);
@@ -122,7 +122,7 @@ class Jogo {
           setTimeout(()=>{
               personagem.matriz = matriz_marvin_andando;
               },1000)
-          personagem.ficaInvencivel();
+          personagem.ficaInvencivel(1000);
           if(vida.vidas == 0){
             
             vida.perdeVida();
@@ -139,7 +139,23 @@ class Jogo {
             estrela.remove()
             somColecionavel.setVolume(0.3);
             somColecionavel.play();
-            pontuacao.adicionaBonus(10)
+            pontuacao.adicionaBonus(50)
+            if(estrela.imagem == imagemEstrelaVermelha){
+              vida.ganhaVida()
+              pontuacao.adicionaBonus(50)
+            
+            }else if(estrela.imagem == imagemEstrelaAzul){
+              pontuacao.adicionaBonus(20)
+              personagem.ficaInvencivel(5000);
+              personagem.matriz = matriz_marvin_vida_perdida;
+              setTimeout(()=>{
+              personagem.matriz = matriz_marvin_andando;
+              },4900)
+                         
+            }
+          
+          
+          
         }
         
         if(pontuacao.pontos >1000){
@@ -157,8 +173,7 @@ class Jogo {
           this.mapa = fita.mapa3
           this.mapaEstrela = fita.estrelas
 
- 
-        
+         
         }
 
         if(pontuacao.pontos >5000){

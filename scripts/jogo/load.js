@@ -47,6 +47,7 @@ function preload(){
   
   //IMAGENS SPRITES
     imagemPersonagem = loadImage('imagens/personagem/jackwalk.png');
+    imagemPersonagemCorrendo = loadImage('imagens/personagem/spritesheet.png')
     imagemFantasma = loadImage('imagens/inimigos/ghost.png')
     imagemInimigo = loadImage('imagens/inimigos/inimigopulando.png');
     imagemInimigo2 = loadImage('imagens/inimigos/inimigopulando2.png');
