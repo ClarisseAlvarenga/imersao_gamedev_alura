@@ -7,7 +7,7 @@ function numero_aleatorio(min, max) {
 
 function GameOver(){
     
-    somDoJogo.stop()
+    som.stop()
     somDoGameOver.setVolume(0.03);
     somDoGameOver.play();
     personagem.criaEfeitoImagem(GRAY);
@@ -17,10 +17,40 @@ function GameOver(){
     textFont(fonteTitulo)
     textSize(100)
     text('GAME OVER',width / 2, height/2-150 )
-    textFont(fonteCreditos)
     textSize(50)
+    text("SCORE: " + parseInt(pontuacao.pontos),width / 2, height/2+25)
     fill('#fff')
+    textFont(fonteCreditos)  
     text("Pressione ENTER para tentar novamente.", width / 2, height/2+150 )   
     fimDeJogo = true;
 
 }
+
+function criaMatrizSprite(numS,larSp,altSp){
+  //cria a matriz de sprites
+  //numS = número de sprites (linha e coluna) e número de sprites utilizáveis (no spritesheet pode conter quadrados em branco, como no caso do troll)
+  let matriz = Array(numS[2]); 
+    let aux = 0;
+    for(let i=0;i<numS[1];i++){
+      for(let j=0;j<numS[0];j++){ 
+       matriz[aux] = [jlarSp,ialtSp];
+        console.log(matriz[aux] + ' ' + matriz.length);
+        aux++;
+        if(aux>=numS[2]) {
+          j = numS[0];
+          i = numS[1];
+        }
+      }
+    }
+  return(matriz);
+}
+
+
+function mudaFase(){
+  somFase.setVolume(0.3)
+  somFase.play()
+
+
+}
+
+

@@ -11,6 +11,33 @@ let imagemCenario8;
 let imagemCenario9;
 let imagemTelaInicial;
 
+//imagens cenário Fase 2
+let imagemCenarioa;
+let imagemCenarioa1;
+let imagemCenarioa2;
+let imagemCenarioa3;
+let imagemCenarioa4;
+let imagemCenarioa5;
+let imagemCenarioa6;
+
+//imagens cenário Fase 3
+let imagemCenariob;
+let imagemCenariob1;
+let imagemCenariob2;
+let imagemCenariob3;
+let imagemCenariob4;
+let imagemCenariob5;
+let imagemCenariob6;
+
+//imagens cenário Fase 4
+let imagemCenarioc;
+let imagemCenarioc1;
+let imagemCenarioc2;
+let imagemCenarioc3;
+let imagemCenarioc4;
+let imagemCenarioc5;
+let imagemCenarioc6;
+
 //Imagens Sprites
 let imagemPersonagem;
 let imagemInimigo;
@@ -21,16 +48,33 @@ let imagemBat;
 let imagemMoeda; 
 let imagemZumbi;
 let imagemZumbiRosa
+let imagemFantasma;
+let imagemVida;
+let imagemGolem;
 
 //Imagens dinâmicas
 let imagemGameOver;
 
+//Imagens Colecionáveis
+
+let imagemEstrelaVermelha;
+let imagemEstrelaBranca;
+let imagemEstrelaAzul;
+let imagemEstrelaAmarela;
+
+
 
 //Sons
-
+let som;
 let somDoJogo; 
 let somDoPulo;
+let somColisao;
+let somColecionavel;
 let somDoGameOver; 
+let somFase;
+let somDoJogo2;
+let somDoJogo3;
+let somDoJogo4;
 
 //Fontes
 let fonteTitulo;// Frijole
@@ -38,12 +82,18 @@ let fonteSubtitulo;//HennyPenny
 let fonteGameOver;//Akronim
 let fonteCreditos;//FingerPaint
 
+//variaveis de ambiente
+let fita;
+
 
 //variáveis de jogo
 let jogo;
 let telaInicial;
 let cenario;
+let vida;
 let personagem;
+//inimigos
+let fantasma;
 let inimigo;
 let inimigo1;
 let inimigo2;
@@ -52,15 +102,24 @@ let morcego;
 let zumbi;
 let zumbirosa
 let inimigoVoador;
+
+//gerenciadores de jogo
 let arrayImagem;
+let arrayImagem2;
 let pontuacao;
 let fimDeJogo;
 let botaoGerenciador;
+//colecionáveis
+let estrelaVermelha;
+let estrelaAzul;
+let estrelaAmarela;
+let estrelaBranca
 
 let cenaAtual = 'telaInicial';
 let cenas;
 
 const inimigos = [];
+const estrelas = [];
 
 
 //Matrizes
@@ -79,7 +138,6 @@ const matriz_inimigo = [
       [450, 1350],
       [900, 1350],
     ]; 
-
 const matriz_marvin_andando = [
   [1,1],
   [582,1],
@@ -114,7 +172,6 @@ const matriz_zumbi = [
 
 
 ];
-
 const matriz_zumbi_rosa = [
   [0,0],
   [521,0],
@@ -136,8 +193,7 @@ const matriz_zumbi_rosa = [
   [521,2304],
 
 
-];
-  
+];  
 const matrizInimigoVoador = [
   [0,0],
   [200, 0],
@@ -156,14 +212,11 @@ const matrizInimigoVoador = [
   [400, 600],
   [0, 750],
 ];
-
-
 const matrixBat = [
   [0, 0],
   [0, 113],
   [0, 219]
-];
-  
+];  
 const matriz_moeda = [
  [1,1],
  [562,1],
@@ -176,8 +229,7 @@ const matriz_moeda = [
  [1069,568],
  [1,1134],
 
-]
-
+];
 let matriz_bruxinha = [
       [0, 0],
       [220, 0],
@@ -208,18 +260,44 @@ const matriz_marvin_correndo = [
   [1163,766],
   [1744,1],
   [1744,766]];
-
-
 const matrixSkeleton = [
   [0, 0],
   [235, 0],
   [500, 0],
   [770, 0]
 ];
-
 const matrixGhost = [
   [0, 0],
   [241, 0],
   [468, 0],
   [709, 0]
 ];
+const matriz_fantasma = [
+[0, 0],
+[352.25, 0],
+[704.5, 0],
+[1056.75, 0],
+];
+
+// efeitos
+
+const matriz_marvin_vida_perdida = [
+  [1,1],
+  [582,1],
+  [1163,1],
+  [1,766],
+  [582,766],
+  [-1163,-766],
+  [-1744,-1],
+  [-1744,-766],
+  [-1,-1531],
+  [-582,-1531]
+];
+
+const matriz_estrela = [
+  [0,0],
+  [500,0],
+  [0,500],
+  [500,500]
+
+]

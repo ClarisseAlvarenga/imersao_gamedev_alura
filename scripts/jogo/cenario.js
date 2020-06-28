@@ -25,6 +25,11 @@ class Cenario{
       
   }
   
+  alteraCenario(novaImagem){
+    this.imagem = imagem
+  
+  }
+  
     
 
 }

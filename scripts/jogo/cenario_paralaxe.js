@@ -99,4 +99,9 @@ class CenarioParalaxe{
     }
     
   }
+  
+    alteraCenario(novaImagem){
+      this.arrayImagem = novaImagem
+  
+  }
 }

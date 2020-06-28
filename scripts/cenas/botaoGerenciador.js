@@ -1,5 +1,5 @@
 class BotaoGerenciador{
-    constructor(texto, posicaoX, posicaoY){
+    constructor(texto, posicaoX, posicaoY,proximaTela, classe){
       
         this.texto = texto;
         this.posicaoX = posicaoX;

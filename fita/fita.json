@@ -1,0 +1,28 @@
+
+{
+  
+  "configuracoes":{
+    "total":5,
+    "inicial": 5
+  },
+
+"mapa": [    
+{"inimigo":4,"velocidade":15},{"inimigo":0,"velocidade":23},{"inimigo":2,"velocidade":13},{"inimigo":4,"velocidade":36},{"inimigo":1,"velocidade":36},{"inimigo":5,"velocidade":30},{"inimigo":5,"velocidade":37},{"inimigo":2,"velocidade":14},{"inimigo":1,"velocidade":14},{"inimigo":6,"velocidade":23},{"inimigo":0,"velocidade":23},{"inimigo":3,"velocidade":11},{"inimigo":5,"velocidade":29},{"inimigo":2,"velocidade":10},{"inimigo":1,"velocidade":36},{"inimigo":5,"velocidade":19},{"inimigo":6,"velocidade":36},{"inimigo":3,"velocidade":14},{"inimigo":5,"velocidade":36},{"inimigo":6,"velocidade":22},{"inimigo":3,"velocidade":37},{"inimigo":4,"velocidade":14},{"inimigo":0,"velocidade":38},{"inimigo":5,"velocidade":15},{"inimigo":4,"velocidade":22}
+    
+    ],
+  
+"estrelas":[{"estrela":0,"altura":168},{"estrela":1,"altura":296},{"estrela":1,"altura":580},{"estrela":4,"altura":114},{"estrela":2,"altura":390},{"estrela":2,"altura":322},{"estrela":2,"altura":429},{"estrela":0,"altura":393},{"estrela":1,"altura":560},{"estrela":2,"altura":409},{"estrela":1,"altura":150},{"estrela":1,"altura":270},{"estrela":4,"altura":635},{"estrela":3,"altura":198},{"estrela":4,"altura":313},{"estrela":2,"altura":390},{"estrela":3,"altura":439},{"estrela":4,"altura":295},{"estrela":1,"altura":176},{"estrela":3,"altura":398},{"estrela":4,"altura":153},{"estrela":0,"altura":172},{"estrela":1,"altura":132},{"estrela":0,"altura":91},{"estrela":3,"altura":257},{"estrela":3,"altura":200},{"estrela":0,"altura":584},{"estrela":1,"altura":616},{"estrela":4,"altura":264},{"estrela":3,"altura":588}],
+
+"mapa2":[{"inimigo":4,"velocidade":15},{"inimigo":0,"velocidade":23},{"inimigo":2,"velocidade":13},{"inimigo":4,"velocidade":36},{"inimigo":1,"velocidade":36},{"inimigo":5,"velocidade":30},{"inimigo":5,"velocidade":37},{"inimigo":2,"velocidade":14},{"inimigo":1,"velocidade":14},{"inimigo":6,"velocidade":23},{"inimigo":0,"velocidade":23},{"inimigo":3,"velocidade":11},{"inimigo":5,"velocidade":29},{"inimigo":2,"velocidade":10},{"inimigo":1,"velocidade":36},{"inimigo":5,"velocidade":19},{"inimigo":6,"velocidade":36},{"inimigo":3,"velocidade":14},{"inimigo":5,"velocidade":36},{"inimigo":6,"velocidade":22},{"inimigo":3,"velocidade":37},{"inimigo":4,"velocidade":14},{"inimigo":0,"velocidade":38},{"inimigo":5,"velocidade":15},{"inimigo":4,"velocidade":22}],
+
+"mapa3":[{"inimigo":1,"velocidade":32},{"inimigo":4,"velocidade":53},{"inimigo":5,"velocidade":43},{"inimigo":4,"velocidade":60},{"inimigo":5,"velocidade":56},{"inimigo":1,"velocidade":43},{"inimigo":5,"velocidade":56},{"inimigo":1,"velocidade":35},{"inimigo":5,"velocidade":27},{"inimigo":3,"velocidade":44},{"inimigo":6,"velocidade":50},{"inimigo":4,"velocidade":57},{"inimigo":0,"velocidade":39},{"inimigo":5,"velocidade":49},{"inimigo":0,"velocidade":57},{"inimigo":2,"velocidade":25},{"inimigo":0,"velocidade":60},{"inimigo":0,"velocidade":27},{"inimigo":0,"velocidade":45},{"inimigo":2,"velocidade":32},{"inimigo":4,"velocidade":46},{"inimigo":1,"velocidade":27},{"inimigo":6,"velocidade":36},{"inimigo":4,"velocidade":47},{"inimigo":5,"velocidade":30}],
+  
+"mapa4":[{"inimigo":1,"velocidade":32},{"inimigo":4,"velocidade":53},{"inimigo":5,"velocidade":43},{"inimigo":4,"velocidade":60},{"inimigo":5,"velocidade":56},{"inimigo":1,"velocidade":43},{"inimigo":5,"velocidade":56},{"inimigo":1,"velocidade":35},{"inimigo":5,"velocidade":27},{"inimigo":3,"velocidade":44},{"inimigo":6,"velocidade":50},{"inimigo":4,"velocidade":57},{"inimigo":0,"velocidade":39},{"inimigo":5,"velocidade":49},{"inimigo":0,"velocidade":57},{"inimigo":2,"velocidade":25},{"inimigo":0,"velocidade":60},{"inimigo":0,"velocidade":27},{"inimigo":0,"velocidade":45},{"inimigo":2,"velocidade":32},{"inimigo":4,"velocidade":46},{"inimigo":1,"velocidade":27},{"inimigo":6,"velocidade":36},{"inimigo":4,"velocidade":47},{"inimigo":5,"velocidade":30}],
+
+"mapa5":[{"inimigo":1,"velocidade":32},{"inimigo":4,"velocidade":53},{"inimigo":5,"velocidade":43},{"inimigo":4,"velocidade":60},{"inimigo":5,"velocidade":56},{"inimigo":1,"velocidade":43},{"inimigo":5,"velocidade":56},{"inimigo":1,"velocidade":35},{"inimigo":5,"velocidade":27},{"inimigo":3,"velocidade":44},{"inimigo":6,"velocidade":50},{"inimigo":4,"velocidade":57},{"inimigo":0,"velocidade":39},{"inimigo":5,"velocidade":49},{"inimigo":0,"velocidade":57},{"inimigo":2,"velocidade":25},{"inimigo":0,"velocidade":60},{"inimigo":0,"velocidade":27},{"inimigo":0,"velocidade":45},{"inimigo":2,"velocidade":32},{"inimigo":4,"velocidade":46},{"inimigo":1,"velocidade":27},{"inimigo":6,"velocidade":36},{"inimigo":4,"velocidade":47},{"inimigo":5,"velocidade":30}],
+  
+"estrelas2":[{"estrela":1,"altura":185},{"estrela":3,"altura":628},{"estrela":2,"altura":170},{"estrela":2,"altura":197},{"estrela":4,"altura":401},{"estrela":2,"altura":181},{"estrela":4,"altura":345},{"estrela":2,"altura":486},{"estrela":2,"altura":85},{"estrela":4,"altura":579},{"estrela":4,"altura":429},{"estrela":1,"altura":110},{"estrela":0,"altura":143},{"estrela":4,"altura":582},{"estrela":0,"altura":408},{"estrela":2,"altura":468},{"estrela":0,"altura":277},{"estrela":3,"altura":300},{"estrela":0,"altura":409},{"estrela":4,"altura":142},{"estrela":0,"altura":191},{"estrela":3,"altura":476},{"estrela":3,"altura":238},{"estrela":2,"altura":253},{"estrela":3,"altura":238},{"estrela":4,"altura":572},{"estrela":4,"altura":519},{"estrela":1,"altura":205},{"estrela":1,"altura":336},{"estrela":4,"altura":206}]
+
+}
+
+

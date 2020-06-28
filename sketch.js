@@ -3,14 +3,18 @@ function setup() {
     createCanvas(windowWidth, windowHeight);
     frameRate(40);
     telaInicial = new TelaInicial();
+    telaProximaFase = new TelaInicial();
     jogo = new Jogo();
-    jogo.setup(); 
-    cenas ={
+    
+      cenas ={
       jogo,
-      telaInicial   
+      telaInicial, 
     
     };
+    jogo.setup()
+     
     botaoGerenciador = new BotaoGerenciador('Iniciar', width/2, height/2);
+    
 }
 
 function keyPressed(){

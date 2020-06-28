@@ -1,6 +1,7 @@
 class TelaInicial{
   
   constructor(){} 
+  setup(){}
   
   draw(){
     this._imagemDeFundo();
@@ -26,6 +27,8 @@ class TelaInicial{
     textSize(50);
     text('e o cemitério assombrado', width/2, height/5*3)
     textSize(30);
+    fill('#fff');
+    text('Para pular clique na seta pra cima', width/2, height/3*2);  
     text('poweredBy: Imersão GameDev - Alura', width/2, height/3*3);   
   
   

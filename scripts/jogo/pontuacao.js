@@ -18,6 +18,12 @@ class Pontuacao {
      
   }
   
+  adicionaBonus(pontos){
+    this.pontos = this.pontos + pontos
+  
+  }
+  
+  
 }
 
 
