@@ -19,11 +19,13 @@ function setup() {
 
 function keyPressed(){
       jogo.keyPressed('ArrowUp');
+      jogo.keyPressed('Enter')
   
       if(fimDeJogo && key === 'Enter'){
           window.location.reload();
       }
- }
+
+    }
 
 
 

@@ -25,11 +25,11 @@ class TelaInicial{
     text('JACK PUMPKINHEAD', width/2, height/3);
     textFont(fonteCreditos)
     textSize(50);
-    text('e o cemitério assombrado', width/2, height/5*3)
-    textSize(30);
+    text('e o cemitério assombrado', width/2, (height/5*3)-50)
+    textSize(40);
     fill('#fff');
-    text('Para pular clique na seta pra cima', width/2, height/3*2);  
-    text('poweredBy: Imersão GameDev - Alura', width/2, height/3*3);   
+    text('Para pular clique na seta pra cima / Para sair do jogo, tecle Enter', width/2, height/3*2);  
+    text('poweredBy: Imersão GameDev - Alura', width/2, (height/3*3)-15);   
   
   
   }

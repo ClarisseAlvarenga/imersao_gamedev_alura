@@ -63,7 +63,9 @@ class Jogo {
       personagem.pula()
       somDoPulo.play()
 
-    }
+    } else if(key === 'Enter'){
+      window.location.reload();}
+
   }
   
   draw() {
