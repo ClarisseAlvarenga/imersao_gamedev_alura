@@ -58,13 +58,14 @@ class Jogo {
   
 
 
-  keyPressed(key) {
-    if (key === 'ArrowUp') {
+  keyPressed() {
+   
+    if ('ArrowUp') {
       personagem.pula()
       somDoPulo.play()
+    }       
+    
 
-    } else if(key === 'Enter'){
-      window.location.reload();}
 
   }
   
@@ -119,6 +120,7 @@ class Jogo {
 
         if(personagem.estaColidindo(inimigo)) {
           console.log('colidiu');
+          pontuacao.adicionaBonus(-30);
           vida.perdeVida();
           personagem.matriz = matriz_marvin_vida_perdida;
           setTimeout(()=>{
